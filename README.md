@@ -1,2 +1,3 @@
 # MySQL
-Learn MySQl
+Learn MySQL
+
