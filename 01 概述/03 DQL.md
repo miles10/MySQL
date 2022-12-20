@@ -81,4 +81,10 @@
    > * MySQL 使用 LIMIT 分页查询，其他数据库用其他方式实现
    > * 如果查询数据是第一页，起始索引可以省略，直接写 LIMIT 10
 
-   
+## DQL 执行顺序
+    1. FROM 表
+    2. WHERE 条件
+    3. GROUP BY 分组
+    4. SELECT 选取 字段
+    5. ORDER BY 排序
+    6. LIMIT 分页
